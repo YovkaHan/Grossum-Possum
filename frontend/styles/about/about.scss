@@ -1,0 +1,65 @@
+@import '../body/main';
+
+
+.about-block {
+	padding-bottom: 54px;
+	font-size: 20px;
+	width: 970px;
+	color: rgb(34, 85, 130);
+	
+	.about-block-content {
+		line-height: 1.0;
+		
+		.first-row {
+			padding-left: 32px;
+			
+			p {
+				padding-right: 60px;
+			}
+		}
+		.second-row {
+			padding-right: 5px;
+		}
+	}
+	
+	.about-block-title {
+		padding-top: 3px;
+		padding-left: 14px;
+		padding-bottom: 16px;
+	
+		font-size: 40px;
+		color: rgb(34, 85, 130);
+		text-align: center;
+		line-height: 1;
+	}
+	
+	.about-block-content-title {
+		margin-bottom: 15px;
+		font-size: 30px;
+		font-family: 'ProximaNova-Bold';
+		color: $m_color;
+	}
+	
+	#values {
+		padding: 0;
+		li {
+			list-style-type: none;
+		}
+	}
+}
+
+@media  (max-width:940px) { 
+		.about-block  {
+			width: 750px;
+			
+			.about-block-content {
+			
+				.first-row {
+					
+					p {
+						padding-right: 15px;
+					}
+				}
+			}
+		}
+	}
