@@ -1,0 +1,379 @@
+.text-bold-custom {
+  font-family: 'ProximaNova-Bold' !important; }
+
+.auto-width {
+  width: auto !important; }
+
+.fs-36px {
+  font-size: 36px !important; }
+
+.about-block {
+  padding-bottom: 54px;
+  font-size: 20px;
+  width: 970px;
+  color: #225582; }
+  .about-block .about-block-content {
+    line-height: 1.0; }
+    .about-block .about-block-content .first-row {
+      padding-left: 32px; }
+      .about-block .about-block-content .first-row p {
+        padding-right: 60px; }
+    .about-block .about-block-content .second-row {
+      padding-right: 5px; }
+  .about-block .about-block-title {
+    padding-top: 3px;
+    padding-left: 14px;
+    padding-bottom: 16px;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #225582;
+    text-align: center;
+    line-height: 1; }
+  .about-block .about-block-content-title {
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'ProximaNova-Bold';
+    color: #fd8300; }
+  .about-block #values {
+    padding: 0; }
+    .about-block #values li {
+      list-style-type: none; }
+
+@media (max-width: 991px) {
+  .about-block {
+    width: 750px;
+    padding-bottom: 65px; }
+    .about-block .about-block-content {
+      font-size: 18px; }
+      .about-block .about-block-content .first-row p {
+        padding-right: 15px; } }
+
+.text-bold-custom {
+  font-family: 'ProximaNova-Bold' !important; }
+
+.auto-width {
+  width: auto !important; }
+
+.fs-36px {
+  font-size: 36px !important; }
+
+body {
+  font-family: 'ProximaNova-Light'; }
+
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url("../fonts/ProximaNova-Light/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light/ProximaNova-Light.eot?") format("eot"), url("../fonts/ProximaNova-Light/ProximaNova-Light.otf") format("opentype"), url("../fonts/ProximaNova-Light/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light/ProximaNova-Light.ttf") format("truetype"), url("../fonts/ProximaNova-Light/ProximaNova-Light.svg#ProximaNova-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProximaNova-Thin';
+  src: url("../fonts/ProximaNova-Light/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Thin/ProximaNova-Thin.eot") format("embedded-opentype"), url("../fonts/ProximaNova-Thin/ProximaNova-Thin.otf") format("opentype"), url("../fonts/ProximaNova-Thin/ProximaNova-Thin.woff") format("woff"), url("../fonts/ProximaNova-Thin/ProximaNova-Thin.ttf") format("truetype"), url("../fonts/ProximaNova-Thin/PProximaNova-Thin.svg#ProximaNova-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url("../fonts/ProximaNova-Light/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Regular/ProximaNova-Regular.eot?") format("eot"), url("../fonts/ProximaNova-Regular/ProximaNova-Regular.otf") format("opentype"), url("../fonts/ProximaNova-Regular/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular/ProximaNova-Regular.ttf") format("truetype"), url("../fonts/ProximaNova-Regular/ProximaNova-Regular.svg#ProximaNova-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url("../fonts/ProximaNova-Bold/ProximaNovaBold.eot");
+  src: url("../fonts/ProximaNova-Bold/ProximaNovaBold.eot?") format("eot"), url("../fonts/ProximaNova-Bold/ProximaNovaBold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold/ProximaNovaBold.woff") format("woff"), url("../fonts/ProximaNova-Bold/ProximaNovaBold.ttf") format("truetype"), url("../fonts/ProximaNova-Bold/ProximaNovaBold.svg#ProximaNovaBold") format("svg"); }
+
+.text-bold-custom {
+  font-family: 'ProximaNova-Bold' !important; }
+
+.auto-width {
+  width: auto !important; }
+
+.fs-36px {
+  font-size: 36px !important; }
+
+.text-bold-custom {
+  font-family: 'ProximaNova-Bold' !important; }
+
+.auto-width {
+  width: auto !important; }
+
+.fs-36px {
+  font-size: 36px !important; }
+
+header {
+  padding: 27px 28px 1px;
+  background: url("../img/header/bg.png") no-repeat;
+  background-position: 48.5% -2%;
+  color: white; }
+  header .logo {
+    display: block;
+    background: url("../img/header/Grossum-Planets-copy2.png") no-repeat;
+    background-position: 59% 46%;
+    margin: 30px auto 0px;
+    width: 230px;
+    height: 69px; }
+    header .logo:hover {
+      background-color: rgba(87, 120, 141, 0.4);
+      border: 2px solid rgba(97, 133, 168, 0.6); }
+  header .title {
+    font-size: 40px;
+    padding: 70px 0px 100px 19px;
+    margin: 0;
+    text-align: center; }
+  header .eBook {
+    display: block;
+    position: relative;
+    margin: 0 auto 28px;
+    padding: 12px 24px 28px 29px;
+    left: 6px;
+    background: rgba(47, 45, 65, 0.7);
+    height: 398px;
+    width: 972px;
+    font-family: 'ProximaNova-Thin'; }
+    header .eBook h4 {
+      color: #fd8300;
+      font-family: 'ProximaNova-Bold';
+      font-size: 25px; }
+    header .eBook .eBook-about {
+      display: inline-block;
+      max-width: 285px;
+      font-size: 20px;
+      color: white;
+      float: left; }
+      header .eBook .eBook-about h4 {
+        margin-bottom: 17px; }
+      header .eBook .eBook-about p {
+        line-height: 1.0;
+        margin-bottom: 20px;
+        letter-spacing: 0.1px; }
+    header .eBook .eBook-pct {
+      display: inline-block;
+      position: absolute;
+      margin-left: 12px;
+      background: url("../img/header/mockup-revista-1.png") 0 0 no-repeat;
+      background-size: contain;
+      width: 350px;
+      height: 430px;
+      top: -22px; }
+    header .eBook .eBook-form {
+      display: inline-block;
+      color: white;
+      float: right;
+      width: 245px; }
+      header .eBook .eBook-form form {
+        display: block;
+        padding-top: 3px; }
+        header .eBook .eBook-form form .form-group {
+          margin-bottom: 20px; }
+        header .eBook .eBook-form form label {
+          margin-bottom: 6px;
+          font-family: 'ProximaNova-Light';
+          font-weight: 500; }
+        header .eBook .eBook-form form input {
+          width: 100%;
+          height: 45px;
+          padding: 10px 5px;
+          border-radius: 1px; }
+          header .eBook .eBook-form form input::-webkit-input-placeholder {
+            font-size: 16px;
+            color: #a9a9ac; }
+          header .eBook .eBook-form form input:-ms-input-placeholder {
+            font-size: 16px;
+            color: #a9a9ac; }
+          header .eBook .eBook-form form input::placeholder {
+            font-size: 16px;
+            color: #a9a9ac; }
+      header .eBook .eBook-form label {
+        font-size: 20px; }
+      header .eBook .eBook-form .button-custom {
+        background: #fd8300;
+        border: 1px solid transparent;
+        border-radius: 1px;
+        vertical-align: middle;
+        padding: 14px 52px 14px 62px;
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 0.85; }
+        header .eBook .eBook-form .button-custom:hover {
+          border: 1px solid #e5e5e5; }
+
+@media (max-width: 1040px) {
+  header {
+    padding: 28px 0; }
+    header .title {
+      padding-left: 0; }
+    header .eBook {
+      left: 0;
+      width: auto; } }
+
+@media (max-width: 940px) {
+  header .title {
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  header .eBook {
+    width: 95%; }
+    header .eBook .eBook-about {
+      width: 40%; }
+    header .eBook .eBook-pct {
+      display: none !important; }
+    header .eBook .eBook-form {
+      width: 40%; }
+      header .eBook .eBook-form .button-custom {
+        width: 100%; } }
+
+@media (max-width: 764px) {
+  header .eBook {
+    width: 100%;
+    display: inline-block; }
+    header .eBook .eBook-about {
+      max-width: none;
+      width: auto;
+      margin-bottom: 18px;
+      font-size: 18px; }
+    header .eBook .eBook-form {
+      display: block;
+      float: none;
+      width: auto; }
+      header .eBook .eBook-form .form-group {
+        width: 45%;
+        display: inline-block; }
+      header .eBook .eBook-form #emailForm {
+        float: right; }
+      header .eBook .eBook-form button {
+        margin: 0 auto;
+        display: block; } }
+
+@media (max-width: 540px) {
+  header {
+    padding: 10px 0; }
+    header .title {
+      font-size: 32px !important;
+      padding: 50px 10px; }
+    header .eBook {
+      left: 0;
+      height: auto; }
+      header .eBook .eBook-about {
+        max-width: none;
+        margin-bottom: 6px;
+        font-size: 17px; }
+        header .eBook .eBook-about p {
+          margin-bottom: 12px; }
+      header .eBook .eBook-form .form-group {
+        width: 47%;
+        display: inline-block; }
+        header .eBook .eBook-form .form-group label {
+          font-size: 17px; }
+        header .eBook .eBook-form .form-group input {
+          height: 32px; }
+          header .eBook .eBook-form .form-group input::-webkit-input-placeholder {
+            font-size: 10px;
+            color: rgba(33, 46, 68, 0.7);
+            font-weight: bold; }
+          header .eBook .eBook-form .form-group input:-ms-input-placeholder {
+            font-size: 10px;
+            color: rgba(33, 46, 68, 0.7);
+            font-weight: bold; }
+          header .eBook .eBook-form .form-group input::placeholder {
+            font-size: 10px;
+            color: rgba(33, 46, 68, 0.7);
+            font-weight: bold; }
+      header .eBook .eBook-form #emailForm {
+        float: right; }
+      header .eBook .eBook-form button {
+        width: 100%;
+        margin: 0;
+        display: block;
+        font-size: 16px; } }
+
+.text-bold-custom {
+  font-family: 'ProximaNova-Bold' !important; }
+
+.auto-width {
+  width: auto !important; }
+
+.fs-36px {
+  font-size: 36px !important; }
+
+footer {
+  padding-left: 20px;
+  background: url("../img/footer/footer-bg.png") 0 0 no-repeat;
+  line-height: 0.75; }
+  footer .button-custom {
+    background: #fd8300;
+    border: 2px solid transparent;
+    border-radius: 1px;
+    vertical-align: middle;
+    padding: 19px 101px 19px 101px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 0.85; }
+    footer .button-custom:hover {
+      border: 2px solid #e5e5e5; }
+  footer .button-custom {
+    margin-top: -28px; }
+  footer .footer-block-question {
+    padding-top: 35px;
+    padding-bottom: 78px;
+    padding-left: 5px;
+    font-size: 18px;
+    color: white; }
+    footer .footer-block-question .footer-block-question-content span {
+      padding-right: 4px; }
+    footer .footer-block-question .footer-block-question-content a, footer .footer-block-question .footer-block-question-content a:link {
+      color: white;
+      text-decoration: none; }
+      footer .footer-block-question .footer-block-question-content a:hover, footer .footer-block-question .footer-block-question-content a:link:hover {
+        border: 0;
+        padding-bottom: 0px;
+        border-bottom: 1px;
+        border-style: solid;
+        border-color: white; }
+  footer .footer-block-socials .left {
+    margin-right: 14px; }
+    footer .footer-block-socials .left span {
+      padding-left: 12px; }
+  footer .footer-block-socials .right {
+    margin-left: 14px; }
+    footer .footer-block-socials .right i {
+      padding-left: 14px;
+      padding-top: 17px; }
+  footer .footer-block-socials .btn-social-icon-custom {
+    padding-top: 15px;
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 1px;
+    text-align: center;
+    width: 162px;
+    height: 52px; }
+    footer .footer-block-socials .btn-social-icon-custom .btn-text {
+      font-size: 18px; }
+  footer .footer-block-socials .btn-social-icon-custom i {
+    text-align: left;
+    padding: 15px 19px;
+    line-height: 1 !important; }
+  footer .footer-block-copyrights {
+    padding-top: 43px;
+    padding-bottom: 53px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    color: white; }
+    footer .footer-block-copyrights .fa-copyright {
+      padding-right: 4px; }
+
+@media (max-width: 540px) {
+  footer {
+    padding-left: 0; }
+    footer .button-custom {
+      padding: 19px 50px 19px 50px;
+      font-size: 18px; }
+    footer .btn-social-icon-custom {
+      width: 54px !important; }
+      footer .btn-social-icon-custom span {
+        display: none; } }

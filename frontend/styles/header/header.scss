@@ -1,7 +1,7 @@
 	@import '../body/main';
 	
 	header {
-		padding: 28px;
+		padding: 27px 28px 1px;
 		background: url("../img/header/bg.png") no-repeat;
 		background-position: 48.5% -2%;
 		color: white;
@@ -29,7 +29,7 @@
 		.eBook {
 			display: block;
 			position: relative;
-			margin: 0 auto 30px;
+			margin: 0 auto 28px;
 			padding: 12px 24px 28px 29px;
 			left: 6px;
 			background: rgba(47,45,65,0.7);
@@ -120,6 +120,10 @@
 			.title {
 				padding-left: 0;
 			}
+			.eBook {
+				left: 0;
+				width: auto;
+			}
 		}
 	}
 	
@@ -127,12 +131,118 @@
 		header {
 			.title {
 				padding-bottom: 70px;
+				padding-left: 10px;
+				padding-right: 10px;
 			}
 			.eBook {
 				width: 95%;
 				
+				.eBook-about {
+					width: 40%;
+				}
+				
 				.eBook-pct {
 					display: none !important;
+				}
+				
+				.eBook-form {
+					width: 40%;
+					
+					.button-custom{
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	
+	@media  (max-width:764px) {
+		header {
+			.eBook {
+				width: 100%;
+				display: inline-block;
+				
+				.eBook-about {
+					max-width: none;
+					width: auto;
+					margin-bottom: 18px;
+					font-size: 18px;
+				}
+				
+				.eBook-form {
+					display: block;
+					float: none;
+					width: auto;
+				
+					.form-group {
+						width: 45%;
+						display: inline-block;
+					}
+					
+					#emailForm {
+						float: right;
+					}
+					
+					button {
+						margin: 0 auto;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+	
+	@media  (max-width:540px) {
+		header {
+			padding: 10px 0;
+			
+			.title {
+				font-size: 32px !important;
+				padding: 50px 10px;
+			}
+		
+			.eBook {
+				left: 0;
+				height: auto;
+			
+				.eBook-about {
+					max-width: none;
+					margin-bottom: 6px;
+					font-size: 17px;
+					
+					p {
+						margin-bottom: 12px;
+					}
+				}
+				.eBook-form {
+					.form-group {
+						width: 47%;
+						display: inline-block;
+						
+						label {
+							font-size: 17px;
+						}
+						input {
+							height: 32px;
+							
+							&::placeholder {
+								font-size: 10px;
+								color : rgba(33,46,68,0.7);
+								font-weight: bold;
+							}
+						}
+					}
+					
+					#emailForm {
+						float: right;
+					}
+					
+					button {
+						width: 100%;
+						margin: 0;
+						display: block;
+						font-size: 16px;
+					}
 				}
 			}
 		}

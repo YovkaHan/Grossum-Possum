@@ -96,3 +96,22 @@ footer{
 		
 	}
  }
+ 
+ @media  (max-width:540px) {
+	footer{
+		padding-left: 0;
+		
+		.button-custom {
+			padding: 19px 50px 19px 50px;
+			font-size: 18px;
+		}
+		
+		.btn-social-icon-custom {
+			width: 54px !important;
+			
+			span {
+				display: none;
+			}
+		}
+	}
+ }
