@@ -1,7 +1,5 @@
 
-$m_color_dark: rgb(51,51,51);
-$m_color: rgb(253,131,0);
-$m_color_light: rgb(237,237,237);
+$orange_color: rgb(253,131,0);
 
 .text-bold-custom {
 	font-family: 'ProximaNova-Bold' !important;
@@ -15,9 +13,17 @@ $m_color_light: rgb(237,237,237);
 	font-size: 36px !important;
 }
 
+.fs-medium {
+	font-size: medium !important;
+}
+
+.trnspnt-bg {
+	background: transparent;
+}
+
 @mixin btn-custom($pTop, $pLeft, $pRight, $fontSize, $borderSize) {
 .button-custom {
-	background: rgb(253,131,0);
+	background: $orange_color;
 	border: $borderSize solid transparent;
 	border-radius: 1px;
 	vertical-align: middle;

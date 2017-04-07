@@ -59,7 +59,6 @@ footer{
 		
 		.btn-social-icon-custom {
 			padding-top: 15px;
-			background: transparent;
 			border-color: rgba(255,255,255,0.3);
 			border-radius: 1px;
 			text-align: center;
@@ -93,11 +92,19 @@ footer{
 
 @media  (max-width: 1040px) {
 	footer{
-		
+
 	}
- }
+}
  
- @media  (max-width:540px) {
+@media  (max-width:764px) {
+	footer{
+		.footer-block-copyrights {
+			padding-bottom: 40px;
+		}
+	}
+}
+ 
+@media  (max-width:540px) {
 	footer{
 		padding-left: 0;
 		
@@ -106,12 +113,22 @@ footer{
 			font-size: 18px;
 		}
 		
+		.footer-block-question {
+			padding-top: 30px;
+			padding-bottom: 60px;
+			padding-left: 5px;
+		}
+		
 		.btn-social-icon-custom {
 			width: 54px !important;
 			
 			span {
 				display: none;
 			}
+		}
+		
+		.footer-block-copyrights {
+			padding-bottom: 30px;
 		}
 	}
  }

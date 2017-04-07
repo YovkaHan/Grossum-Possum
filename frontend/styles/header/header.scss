@@ -3,7 +3,7 @@
 	header {
 		padding: 27px 28px 1px;
 		background: url("../img/header/bg.png") no-repeat;
-		background-position: 48.5% -2%;
+		background-position: 48.5% -1%;
 		color: white;
 		
 		.logo {
@@ -38,8 +38,8 @@
 			
 			font-family: 'ProximaNova-Thin';
 			
-			h4 {
-				color: rgb(253,131,0);
+			h3 {
+				color: $orange_color;
 				font-family: 'ProximaNova-Bold';
 				font-size: 25px;
 			}
@@ -50,7 +50,8 @@
 				color: white;
 				float: left;
 				
-				h4 {
+				.eBook-title {
+					margin-top: 12px;
 					margin-bottom: 17px;
 				}
 				
@@ -69,7 +70,7 @@
 				background-size: contain;
 				width: 350px;
 				height: 430px;
-				top: -22px;
+				top: -21px;
 			}
 			
 			.eBook-form {
@@ -77,6 +78,10 @@
 				color: white;
 				float: right;
 				width: 245px;
+				
+				.eBook-title {
+					margin-top: 10px;
+				}
 				
 				form {
 					display: block;
@@ -165,7 +170,7 @@
 				.eBook-about {
 					max-width: none;
 					width: auto;
-					margin-bottom: 18px;
+					float: none;
 					font-size: 18px;
 				}
 				
@@ -228,7 +233,6 @@
 							&::placeholder {
 								font-size: 10px;
 								color : rgba(33,46,68,0.7);
-								font-weight: bold;
 							}
 						}
 					}
@@ -242,6 +246,46 @@
 						margin: 0;
 						display: block;
 						font-size: 16px;
+					}
+				}
+			}
+		}
+	}
+	
+	@media  (max-width:320px) {
+		header {
+			.logo {
+				margin-top: 10px;
+			}
+			.title {
+				font-size: 30px !important;
+				padding: 40px 10px;
+			}
+		
+			.eBook {
+				left: 0;
+				height: auto;
+				
+				h3 {
+					font-size: 20px;
+				}
+			
+				.eBook-about {
+					max-width: none;
+					margin-bottom: 6px;
+					font-size: 17px;
+					
+					p {
+						margin-bottom: 10px;
+						font-size: medium;
+					}
+				}
+				
+				.eBook-form {
+					
+					@include btn-custom(14px, 14px, 14px, 15px, 1px);
+					.button-custom{
+						width: 100%;
 					}
 				}
 			}

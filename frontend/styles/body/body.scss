@@ -3,3 +3,9 @@
 body {
 	font-family: 'ProximaNova-Light';
 }
+
+@media  (max-width:320px) {
+	p {
+		font-size: medium !important;
+	}
+}

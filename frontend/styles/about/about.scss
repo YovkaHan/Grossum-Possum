@@ -38,7 +38,7 @@
 		margin-bottom: 15px;
 		font-size: 30px;
 		font-family: 'ProximaNova-Bold';
-		color: $m_color;
+		color: $orange_color;
 	}
 	
 	#values {
@@ -54,6 +54,10 @@
 			width: 750px;
 			padding-bottom: 65px;
 			
+			.about-block-title {
+				padding-left: 0;
+			}
+			
 			.about-block-content {
 			font-size: 18px;
 			
@@ -65,4 +69,31 @@
 				}
 			}
 		}
+}
+
+@media  (max-width:540px) {
+	.about-block  {
+			
+			.about-block-title {
+				padding-left: 0;
+				font-size: 30px !important;
+			}
 	}
+}	
+
+@media  (max-width:320px) {
+	.about-block  {
+			
+			.about-block-title {
+				padding-left: 0;
+				padding-bottom: 8px;
+				margin-top: 25px;
+				font-size: 30px !important;
+			}
+			
+			.about-block-content-title {
+				margin-top: 16px;
+				margin-bottom: 8px;
+			}
+	}
+}

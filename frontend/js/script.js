@@ -23,13 +23,15 @@
 					mobileView(mvOn)
 				}
 			}
-	
+			
 	function mobileView(switcher){
 		
 		if(switcher) {
 			$('header .title').addClass('fs-36px');
-			$('.eBook-form h4').removeClass('text-right');
+			$('.eBook-form .eBook-title').removeClass('text-right');
+			
 			/* ABOUT BLOCK */
+			
 			$('.about-block .about-block-title').addClass('fs-36px');
 			$('.about-block').addClass('auto-width');
 			$('.about-block .row .first-row').removeClass('text-left').addClass('text-center');
@@ -40,10 +42,13 @@
 			lists.map(function(item){
 				$(item).remove();
 			});
-			/*---	---*/
+			
+			/* FOOTER BLOCK */
+			
+			//$('.footer-block-socials .btn').removeClass('trnspnt-bg');
 		} else {
 			$('header .title').removeClass('fs-36px');
-			$('.eBook-form h4').addClass('text-right');
+			$('.eBook-form .eBook-title').addClass('text-right');
 			/* ABOUT BLOCK */
 			$('.about-block .about-block-title').removeClass('fs-36px');
 			$('.about-block').removeClass('auto-width');
@@ -59,7 +64,10 @@
 				}
 			});
 			//$('.about-block #values').attr('dir', 'rtl');
-			/*---	---*/
+			
+			/* FOOTER BLOCK */
+			
+			//$('.footer-block-socials .btn').addClass('trnspnt-bg');
 		}
 
 	}
